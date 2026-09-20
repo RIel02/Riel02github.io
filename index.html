@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
     <title>My Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
 </head>
 
 <body>
 
     <div class="header">
+
         <h2>My Portfolio</h2>
 
         <a href="#about">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Services</a>
         <a href="#contact">Contacts</a>
+
     </div>
+
 
     <div id="about">
 
@@ -31,19 +39,23 @@
             <p>School: Holy Angel University</p>
 
             <p>
-                 My name is Adrielle Justine B. De Jesus. I am a Bachelor of Science in Information Technology in Cyber Security student at Holy Angel University. I enjoy learning about technology, web development, and programming, and I always want to improve my skills by creating simple and useful projects.            </p>
+                My name is Adrielle Justine B. De Jesus. I am a Bachelor of Science in Information Technology in Cyber Security student at Holy Angel University. I enjoy learning about technology, web development, and programming, and I always want to improve my skills by creating simple and useful projects.
+            </p>
 
         </div>
 
-      <div class="right">
 
-    <img src="profile.jpeg.jpg" alt="My Profile" class="picture">
+        <div class="right">
 
-</div>
-        
+            <img src="profile.jpeg.jpg" alt="My Profile" class="picture">
+
+        </div>
+
     </div>
 
+
     <hr>
+
 
     <div id="skills">
 
@@ -57,21 +69,25 @@
 
     </div>
 
-    <hr>
-
-    <div id="projects">
-
-        <h2>PROJECTS</h2>
-
-        <div class="project">Project 1</div>
-
-        <div class="project">Project 2</div>
-
-        <div class="project">Project 3</div>
-
-    </div>
 
     <hr>
+
+
+    <section id="projects">
+
+        <h2>MY PROJECTS</h2>
+
+        <input type="search" id="search" placeholder="Search projects">
+
+        <p id="message"></p>
+
+        <div id="project-list"></div>
+
+    </section>
+
+
+    <hr>
+
 
     <div id="contact">
 
@@ -88,4 +104,5 @@
     </div>
 
 </body>
-</html> 
+
+</html>
